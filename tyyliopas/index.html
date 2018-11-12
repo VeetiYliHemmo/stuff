@@ -9,96 +9,72 @@
 		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		
-		<style>
-		
-		.row.content {height: 1500px}
-
-		.sidenav {
-		background-color: #f1f1f1;
-		height: 100%;
-		}
-    
-		footer {
-			background-color: #555;
-			color: white;
-			padding: 15px;
-		}
-    
-		@media screen and (max-width: 767px) {
-			
-			.sidenav {
-			height: auto;
-			padding: 15px;
-			}
-			
-		.row.content {height: auto;
-		}
-	  
-	}
-	
-		</style>
   
 	</head>
 
-<body>
+	<body>
 
-	<div class="container-fluid">
-	
-		<div class="row content">
+		<div class="container-fluid">
 		
-			<div class="col-sm-3 sidenav">
+			<div class="row content">
 			
-				<h4>Pirkkahuset</h4>
+				<div id="sidenav" class="col-sm-3 sidenav">
 				
-					<ul class="nav nav-pills nav-stacked">
+					<h1>Pirkkahuset</h1>
 					
-					<li class="active"><a href="#section1">Asunnot</a></li>
-					<li><a href="#section2">Hakemus</a></li>
-					<li><a href="#section3">Luo Ilmoitus</a></li>
-					<li><a href="#section3">Tuki</a></li>
-					
-					</ul><br>
+						<ul class="nav nav-pills nav-stacked">
 						
+						<li class="active"><a href="#section1">Asunnot</a></li>
+						<li><a href="#section2">Hakemus</a></li>
+						<li><a href="#section3">Luo Ilmoitus</a></li>
+						<li><a href="#section4">Tuki</a></li>
+						
+						</ul><br>
+							
 				</div>
 
 				<div class="col-sm-9">
-				
-					<h1>Asunnot</h1>
 					
+					<h2>Asunnot</h2>
+						
 					<hr>
-					
-				<h2>Asunto 1</h2>
-					
+						
+				<h3>Asunto 1</h3>
+						
 					<h5><span class="glyphicon glyphicon-time"></span>Esittely aika</h5>
-					
+						
 					<h5><span class="label label-success">Hinta</span> <span class="label label-primary">Lisä info</span></h5><br>
 					
+					<img id="fredag-frog" src="./images/fredag-frog.png" alt="fredag-frog">
 					<p>Tietoa asunnosta</p>
 					<br><br>
-					
+						
 					<hr>
-					
-				<h2>Asunto 2</h2>
-					
+						
+				<h3>Asunto 2</h3>
+						
 					<h5><span class="glyphicon glyphicon-time"></span>Esittely aika</h5>
-					
+						
 					<h5><span class="label label-success">Hinta</span></h5><br>
 					
+					<img id="fredag-frog" src="./images/fredag-frog.png" alt="fredag-frog">
 					<p>Tietoa asunnosta</p>
-					
-					<hr>
-					
+						
 				</div>
+			
+			</div>
+			
 		</div>
 
 		<footer class="container-fluid">
-		
-			<p>test</p>
 			
+			<p>Footer</p>
+				
 		</footer>
 
 	</body>
